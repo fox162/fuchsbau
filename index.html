@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuchsbau - Raum mieten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="topbar">
+        <div class="topbar__logo">Fuchsbau</div>
+        <div class="topbar__links">
+            <a href="#home">Home</a>
+            <a href="#rooms">Räume</a>
+            <a href="#prices">Preise</a>
+            <a href="#about">Über uns</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+        <a class="btn btn-language" href="en/">EN</a>
+    </nav>
+
+    <main>
+        <section id="home" class="section section--hero">
+            <div class="section__inner hero-layout">
+                <div class="hero-copy">
+                    <p class="hero-subtitle">Raum für Ideen.</p>
+                    <h1>Fuchsbau - Raum mieten</h1>
+                    <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim tellus in neque ultrices, sed tincidunt augue interdum.</p>
+                    <ul class="hero-highlights">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Sed do eiusmod tempor</li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary hero-btn" href="#contact">Mehr erfahren</a>
+                        <a class="btn btn-ghost hero-btn" href="#rooms">Räume entdecken</a>
+                    </div>
+                </div>
+                <div class="hero-gallery">
+                    <input type="radio" name="hero-slider-de" id="hero-de-0" checked>
+                    <input type="radio" name="hero-slider-de" id="hero-de-1">
+                    <div class="hero-frame">
+                        <figure class="hero-image">
+                            <img src="assets/main.png" alt="Beispielraum 1" loading="lazy">
+                            <figcaption>Beispiel 1</figcaption>
+                        </figure>
+                        <figure class="hero-image">
+                            <img src="assets/layout.png" alt="Beispielraum 2" loading="lazy">
+                            <figcaption>Beispiel 2</figcaption>
+                        </figure>
+                    </div>
+                    <div class="hero-thumbs">
+                        <label class="hero-thumb" for="hero-de-0" aria-label="Beispielraum 1">
+                            <img src="assets/main.png" alt="Beispielraum 1" loading="lazy">
+                        </label>
+                        <label class="hero-thumb" for="hero-de-1" aria-label="Beispielraum 2">
+                            <img src="assets/layout.png" alt="Beispielraum 2" loading="lazy">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rooms" class="section">
+            <div class="section__inner">
+                <header class="section-heading">
+                    <h2>Unsere Räume</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non lacus id lectus aliquet porta.</p>
+                </header>
+                <div class="media-block">
+                    <img src="assets/layout.png" alt="Rooms overview" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="prices" class="section">
+            <div class="section__inner">
+                <header class="section-heading">
+                    <h2>Preise</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </header>
+                <div class="price-grid">
+                <article class="price-card">
+                    <div class="price-card-badge">Beliebt</div>
+                    <header class="price-card-header">
+                        <h3 class="price-card-title">Ganzer Tag</h3>
+                        <p class="price-card-subtitle">Perfekt für große Events</p>
+                    </header>
+                    <div class="price-card-rate">
+                        <span class="price-card-amount">150 €</span>
+                        <span class="price-card-period">pro Tag</span>
+                    </div>
+                    <ul class="price-card-features">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Sed do eiusmod tempor</li>
+                        <li>Ut enim ad minim veniam</li>
+                    </ul>
+                    <a class="btn btn-outlined price-card-cta" href="#contact">Anfrage stellen</a>
+                </article>
+                <article class="price-card">
+                    <header class="price-card-header">
+                        <h3 class="price-card-title">Halber Tag</h3>
+                        <p class="price-card-subtitle">Ideal für Workshops</p>
+                    </header>
+                    <div class="price-card-rate">
+                        <span class="price-card-amount">80 €</span>
+                        <span class="price-card-period">pro halbem Tag</span>
+                    </div>
+                    <ul class="price-card-features">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Sed do eiusmod tempor</li>
+                        <li>Ut enim ad minim veniam</li>
+                    </ul>
+                    <a class="btn btn-outlined price-card-cta" href="#contact">Jetzt informieren</a>
+                </article>
+                </div>
+                <h3 class="addons-heading">Zusätzliche Features</h3>
+                <div class="addons-list">
+                <div class="addon-item">
+                    <div class="addon-info">
+                        <span class="addon-title">Lorem Feature</span>
+                        <span class="addon-description">Dolor sit amet</span>
+                    </div>
+                    <span class="addon-price">50 €</span>
+                </div>
+                <div class="addon-item">
+                    <div class="addon-info">
+                        <span class="addon-title">Ipsum Service</span>
+                        <span class="addon-description">Consectetur elit</span>
+                    </div>
+                    <span class="addon-price">ab 15 €/Person</span>
+                </div>
+                <div class="addon-item">
+                    <div class="addon-info">
+                        <span class="addon-title">Dolor Support</span>
+                        <span class="addon-description">Eiusmod tempor</span>
+                    </div>
+                    <span class="addon-price">80 €/Stunde</span>
+                </div>
+                <div class="addon-item">
+                    <div class="addon-info">
+                        <span class="addon-title">Amet Dekor</span>
+                        <span class="addon-description">Ut labore et dolore</span>
+                    </div>
+                    <span class="addon-price">ab 100 €</span>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section__inner">
+                <h2>Über uns</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ligula dictum, dictum mauris sed, placerat sapien.</p>
+            <p>Suspendisse potenti. Donec vel metus tristique, rhoncus risus eget, vulputate nunc. Praesent nec lorem nisl.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section__inner">
+                <header class="section-heading">
+                    <h2>Kontakt</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </header>
+                <div class="contact-card">
+                <div class="contact-row">
+                    <div class="contact-row-icon">
+                        <img src="assets/icons/location.svg" alt="Standort" loading="lazy">
+                    </div>
+                    <div class="contact-row-content">
+                        <div class="contact-row-title">Standort</div>
+                        <div class="contact-row-detail">Loremstraße 1</div>
+                        <div class="contact-row-detail">12345 Musterstadt</div>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-row-icon">
+                        <img src="assets/icons/phone.svg" alt="Telefon" loading="lazy">
+                    </div>
+                    <div class="contact-row-content">
+                        <div class="contact-row-title">Telefon</div>
+                        <div class="contact-row-detail">+49 000 000000</div>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-row-icon">
+                        <img src="assets/icons/email.svg" alt="E-Mail" loading="lazy">
+                    </div>
+                    <div class="contact-row-content">
+                        <div class="contact-row-title">E-Mail</div>
+                        <div class="contact-row-detail">hallo@fuchsbau.de</div>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-row-icon">
+                        <img src="assets/icons/clock.svg" alt="Öffnungszeiten" loading="lazy">
+                    </div>
+                    <div class="contact-row-content">
+                        <div class="contact-row-title">Öffnungszeiten</div>
+                        <div class="contact-row-detail">Mo-Fr: 09:00 - 18:00 Uhr</div>
+                        <div class="contact-row-detail">Sa-So: 10:00 - 14:00 Uhr</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="section">
+            <div class="section__inner">
+                <h2>Standort</h2>
+                <div class="map-frame">
+                    <iframe
+                        title="Fuchsbau location"
+                        src="https://www.google.com/maps?q=Loremstraße%201%2C%2012345%20Musterstadt&output=embed"
+                        width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="map-link">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Loremstraße%201%2C%2012345%20Musterstadt" target="_blank" rel="noopener">Auf Google Maps ansehen</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
